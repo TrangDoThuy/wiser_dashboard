@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "remarks",
+  "info": {
+    "name": "remark",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "project": {
+      "via": "remarks",
+      "model": "project"
+    },
+    "users_permissions_user": {
+      "via": "remarks",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "text"
+    },
+    "time": {
+      "type": "string"
+    }
+  }
+}

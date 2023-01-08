@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "components_investment_terms",
+  "info": {
+    "name": "investment-terms",
+    "description": "",
+    "icon": "calendar-alt"
+  },
+  "attributes": {
+    "item": {
+      "required": true,
+      "type": "string"
+    },
+    "detail": {
+      "type": "string"
+    }
+  }
+}
